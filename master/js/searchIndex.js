@@ -108,7 +108,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Collections\\Flysystem",
             "name": "Flysystem",
-            "summary": "Flysystem\u00201.x\u0020and\u00202.x\u0020adapter\u0020for\u0020a\u0020subset\u0020of\u0020data,\u0020in\u0020a\u0020subfolder.",
+            "summary": "Flysystem\u0020adapter\u0020for\u0020a\u0020subset\u0020of\u0020data,\u0020in\u0020a\u0020subfolder.",
             "url": "classes/MatthiasMullie-Scrapbook-Adapters-Collections-Flysystem.html"
         },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Collections\\Flysystem\u003A\u003A__construct\u0028\u0029",
@@ -353,7 +353,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Flysystem",
             "name": "Flysystem",
-            "summary": "Flysystem\u00201.x,\u00202.x\u0020\u0026\u00203.x\u0020adapter.\u0020Data\u0020will\u0020be\u0020written\u0020to\u0020League\\Flysystem\\Filesystem.",
+            "summary": "Flysystem\u0020adapter.\u0020Data\u0020will\u0020be\u0020written\u0020to\u0020League\\Flysystem\\Filesystem.",
             "url": "classes/MatthiasMullie-Scrapbook-Adapters-Flysystem.html"
         },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Flysystem\u003A\u003A__construct\u0028\u0029",
