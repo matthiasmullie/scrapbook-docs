@@ -686,11 +686,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/MatthiasMullie-Scrapbook-Exception-Exception.html"
         },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Exception\\ServerUnhealthy",
-            "name": "ServerUnhealthy",
-            "summary": "",
-            "url": "classes/MatthiasMullie-Scrapbook-Exception-ServerUnhealthy.html"
-        },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Exception\\UnbegunTransaction",
             "name": "UnbegunTransaction",
             "summary": "",
@@ -1005,6 +1000,11 @@ Search.appendIndex(
             "name": "InvalidArgumentException",
             "summary": "Exception\u0020interface\u0020for\u0020invalid\u0020cache\u0020arguments.",
             "url": "classes/Psr-Cache-InvalidArgumentException.html"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Exception\\ServerUnhealthy",
+            "name": "ServerUnhealthy",
+            "summary": "",
+            "url": "classes/MatthiasMullie-Scrapbook-Exception-ServerUnhealthy.html"
         },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem",
             "name": "Filesystem",

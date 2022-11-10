@@ -185,7 +185,7 @@ Implementing Library.</p>
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_getItems">getItems()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;|<abbr title="\Traversable">Traversable</abbr>    </span>
+                                &nbsp;: iteratable&lt;string|int, mixed&gt;    </span>
 </dt>
 <dd>Returns a traversable set of cache items.</dd>
 
@@ -507,7 +507,7 @@ MUST be thrown.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getItems</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, string&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$keys</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|<abbr title="\Traversable">Traversable</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">getItems</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, string&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$keys</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">iteratable&lt;string|int, mixed&gt;</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -515,7 +515,7 @@ MUST be thrown.</p>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$keys</span>
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, string&gt;</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+                 = <span class="phpdocumentor-signature__argument__default-value">[]</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>An indexed array of keys of items to retrieve.</p>
 </section>
@@ -543,9 +543,9 @@ MUST be thrown.</p>
                         </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|<abbr title="\Traversable">Traversable</abbr></span>
+    <span class="phpdocumentor-signature__response_type">iteratable&lt;string|int, mixed&gt;</span>
             &mdash;
-            <section class="phpdocumentor-description"><p>A traversable collection of Cache Items keyed by the cache keys of
+            <section class="phpdocumentor-description"><p>An iterable collection of Cache Items keyed by the cache keys of
 each item. A Cache item will be returned for each key, even if that
 key is not found. However, if no keys are specified then an empty
 traversable MUST be returned instead.</p>

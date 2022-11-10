@@ -353,7 +353,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Flysystem",
             "name": "Flysystem",
-            "summary": "Flysystem\u00201.x\u0020and\u00202.x\u0020adapter.\u0020Data\u0020will\u0020be\u0020written\u0020to\u0020League\\Flysystem\\Filesystem.",
+            "summary": "Flysystem\u00201.x,\u00202.x\u0020\u0026\u00203.x\u0020adapter.\u0020Data\u0020will\u0020be\u0020written\u0020to\u0020League\\Flysystem\\Filesystem.",
             "url": "classes/MatthiasMullie-Scrapbook-Adapters-Flysystem.html"
         },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Flysystem\u003A\u003A__construct\u0028\u0029",
@@ -591,6 +591,11 @@ Search.appendIndex(
             "summary": "Returns\u0020an\u0020isolated\u0020subset\u0020\u0028collection\u0029\u0020in\u0020which\u0020to\u0020store\u0020or\u0020fetch\u0020data\nfrom.",
             "url": "classes/MatthiasMullie-Scrapbook-Adapters-MemoryStore.html#method_getCollection"
         },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\MemoryStore\u003A\u003A\u0024items",
+            "name": "items",
+            "summary": "",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-MemoryStore.html#property_items"
+        },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\MySQL",
             "name": "MySQL",
             "summary": "MySQL\u0020adapter.\u0020Basically\u0020just\u0020a\u0020wrapper\u0020over\u0020\\PDO,\u0020but\u0020in\u0020an\u0020exchangeable\n\u0028KeyValueStore\u0029\u0020interface.",
@@ -626,11 +631,6 @@ Search.appendIndex(
             "summary": "Clears\u0020the\u0020entire\u0020cache\u0020\u0028or\u0020the\u0020everything\u0020for\u0020the\u0020given\u0020collection\u0029.",
             "url": "classes/MatthiasMullie-Scrapbook-Adapters-PostgreSQL.html#method_flush"
         },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\PostgreSQL\u003A\u003Aset\u0028\u0029",
-            "name": "set",
-            "summary": "Stores\u0020a\u0020value,\u0020regardless\u0020of\u0020whether\u0020or\u0020not\u0020the\u0020key\u0020already\u0020exists\u0020\u0028in\nwhich\u0020case\u0020it\u0020will\u0020overwrite\u0020the\u0020existing\u0020value\u0020for\u0020that\u0020key\u0029.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-PostgreSQL.html#method_set"
-        },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\PostgreSQL\u003A\u003Aget\u0028\u0029",
             "name": "get",
             "summary": "Retrieves\u0020an\u0020item\u0020from\u0020the\u0020cache.",
@@ -640,6 +640,11 @@ Search.appendIndex(
             "name": "getMulti",
             "summary": "Retrieves\u0020multiple\u0020items\u0020at\u0020once.",
             "url": "classes/MatthiasMullie-Scrapbook-Adapters-PostgreSQL.html#method_getMulti"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\PostgreSQL\u003A\u003Aset\u0028\u0029",
+            "name": "set",
+            "summary": "Stores\u0020a\u0020value,\u0020regardless\u0020of\u0020whether\u0020or\u0020not\u0020the\u0020key\u0020already\u0020exists\u0020\u0028in\nwhich\u0020case\u0020it\u0020will\u0020overwrite\u0020the\u0020existing\u0020value\u0020for\u0020that\u0020key\u0029.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-PostgreSQL.html#method_set"
         },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Redis",
             "name": "Redis",
@@ -1016,11 +1021,6 @@ Search.appendIndex(
             "summary": "Returns\u0020an\u0020isolated\u0020subset\u0020\u0028collection\u0029\u0020in\u0020which\u0020to\u0020store\u0020or\u0020fetch\u0020data\nfrom.",
             "url": "classes/MatthiasMullie-Scrapbook-Buffered-Utils-Buffer.html#method_getCollection"
         },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Buffered\\Utils\\Buffer\u003A\u003A\u0024items",
-            "name": "items",
-            "summary": "Make\u0020items\u0020publicly\u0020available\u0020\u002D\u0020if\u0020we\u0020create\u0020a\u0020collection\u0020from\u0020this,\nthat\u0020collection\u0020will\u0020need\u0020to\u0020be\u0020able\u0020to\u0020access\u0020these\u0020items\u0020to\u0020determine\nif\u0020something\u0020has\u0020expired.",
-            "url": "classes/MatthiasMullie-Scrapbook-Buffered-Utils-Buffer.html#property_items"
-        },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Buffered\\Utils\\BufferCollection",
             "name": "BufferCollection",
             "summary": "A\u0020collection\u0020implementation\u0020for\u0020Buffer.",
@@ -1226,11 +1226,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/MatthiasMullie-Scrapbook-Exception-OperationFailed.html"
         },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Exception\\ServerUnhealthy",
-            "name": "ServerUnhealthy",
-            "summary": "",
-            "url": "classes/MatthiasMullie-Scrapbook-Exception-ServerUnhealthy.html"
-        },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Exception\\UnbegunTransaction",
             "name": "UnbegunTransaction",
             "summary": "",
@@ -1371,11 +1366,6 @@ Search.appendIndex(
             "summary": "Determines\u0020whether\u0020an\u0020item\u0020is\u0020present\u0020in\u0020the\u0020cache.",
             "url": "classes/MatthiasMullie-Scrapbook-Psr16-SimpleCache.html#method_has"
         },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr16\\SimpleCache\u003A\u003AKEY_INVALID_CHARACTERS",
-            "name": "KEY_INVALID_CHARACTERS",
-            "summary": "List\u0020of\u0020invalid\u0020\u0028or\u0020reserved\u0029\u0020key\u0020characters.",
-            "url": "classes/MatthiasMullie-Scrapbook-Psr16-SimpleCache.html#constant_KEY_INVALID_CHARACTERS"
-        },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\InvalidArgumentException",
             "name": "InvalidArgumentException",
             "summary": "",
@@ -1505,11 +1495,6 @@ Search.appendIndex(
             "name": "commit",
             "summary": "Persists\u0020any\u0020deferred\u0020cache\u0020items.",
             "url": "classes/MatthiasMullie-Scrapbook-Psr6-Pool.html#method_commit"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Pool\u003A\u003AKEY_INVALID_CHARACTERS",
-            "name": "KEY_INVALID_CHARACTERS",
-            "summary": "List\u0020of\u0020invalid\u0020\u0028or\u0020reserved\u0029\u0020key\u0020characters.",
-            "url": "classes/MatthiasMullie-Scrapbook-Psr6-Pool.html#constant_KEY_INVALID_CHARACTERS"
         },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Repository",
             "name": "Repository",
