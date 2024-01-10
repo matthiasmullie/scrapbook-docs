@@ -146,6 +146,81 @@ Search.appendIndex(
             "summary": "Clears\u0020the\u0020entire\u0020cache.",
             "url": "classes/MatthiasMullie-Scrapbook-Adapters-Couchbase.html#method_flush"
         },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem",
+            "name": "Filesystem",
+            "summary": "Filesystem\u0020adapter.\u0020Data\u0020will\u0020be\u0020written\u0020to\u0020filesystem,\u0020in\u0020separate\u0020files.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method___construct"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "Retrieves\u0020an\u0020item\u0020from\u0020the\u0020cache.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_get"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003AgetMulti\u0028\u0029",
+            "name": "getMulti",
+            "summary": "Retrieves\u0020multiple\u0020items\u0020at\u0020once.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_getMulti"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aset\u0028\u0029",
+            "name": "set",
+            "summary": "Stores\u0020a\u0020value,\u0020regardless\u0020of\u0020whether\u0020or\u0020not\u0020the\u0020key\u0020already\u0020exists\u0020\u0028in\nwhich\u0020case\u0020it\u0020will\u0020overwrite\u0020the\u0020existing\u0020value\u0020for\u0020that\u0020key\u0029.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_set"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003AsetMulti\u0028\u0029",
+            "name": "setMulti",
+            "summary": "Store\u0020multiple\u0020values\u0020at\u0020once.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_setMulti"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "Deletes\u0020an\u0020item\u0020from\u0020the\u0020cache.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_delete"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003AdeleteMulti\u0028\u0029",
+            "name": "deleteMulti",
+            "summary": "Deletes\u0020multiple\u0020items\u0020at\u0020once\u0020\u0028reduced\u0020network\u0020traffic\u0020compared\u0020to\nindividual\u0020operations\u0029.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_deleteMulti"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aadd\u0028\u0029",
+            "name": "add",
+            "summary": "Adds\u0020an\u0020item\u0020under\u0020new\u0020key.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_add"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Areplace\u0028\u0029",
+            "name": "replace",
+            "summary": "Replaces\u0020an\u0020item.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_replace"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Acas\u0028\u0029",
+            "name": "cas",
+            "summary": "Replaces\u0020an\u0020item\u0020in\u00201\u0020atomic\u0020operation,\u0020to\u0020ensure\u0020it\u0020didn\u0027t\u0020change\u0020since\nit\u0020was\u0020originally\u0020read,\u0020when\u0020the\u0020CAS\u0020token\u0020was\u0020issued.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_cas"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aincrement\u0028\u0029",
+            "name": "increment",
+            "summary": "Increments\u0020a\u0020counter\u0020value,\u0020or\u0020sets\u0020an\u0020initial\u0020value\u0020if\u0020it\u0020does\u0020not\u0020yet\nexist.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_increment"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Adecrement\u0028\u0029",
+            "name": "decrement",
+            "summary": "Decrements\u0020a\u0020counter\u0020value,\u0020or\u0020sets\u0020an\u0020initial\u0020value\u0020if\u0020it\u0020does\u0020not\u0020yet\nexist.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_decrement"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Atouch\u0028\u0029",
+            "name": "touch",
+            "summary": "Updates\u0020an\u0020item\u0027s\u0020expiration\u0020time\u0020without\u0020altering\u0020the\u0020stored\u0020value.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_touch"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aflush\u0028\u0029",
+            "name": "flush",
+            "summary": "Clears\u0020the\u0020entire\u0020cache.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_flush"
+        },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Flysystem",
             "name": "Flysystem",
             "summary": "Flysystem\u0020adapter.\u0020Data\u0020will\u0020be\u0020written\u0020to\u0020League\\Flysystem\\Filesystem.",
@@ -936,6 +1011,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/MatthiasMullie-Scrapbook-Exception-Exception.html"
         },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Exception\\ServerUnhealthy",
+            "name": "ServerUnhealthy",
+            "summary": "",
+            "url": "classes/MatthiasMullie-Scrapbook-Exception-ServerUnhealthy.html"
+        },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Exception\\UnbegunTransaction",
             "name": "UnbegunTransaction",
             "summary": "",
@@ -1016,6 +1096,11 @@ Search.appendIndex(
             "summary": "Clears\u0020the\u0020entire\u0020cache.",
             "url": "classes/MatthiasMullie-Scrapbook-KeyValueStore.html#method_flush"
         },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\InfinityDateTime",
+            "name": "InfinityDateTime",
+            "summary": "Stub\u0020class\u0020to\u0020represent\u0020infinity,\u0020while\u0020still\u0020keeping\u0020with\u0020the\u0020PSR\u002D6\nrequirement\u0020of\u0020representing\u0020TTL\u0020with\u0020DateTime\u0020objects\u0020\u0028with\u0020which\u0020it\u0027s\u0020not\npossible\u0020to\u0020represent\u0020an\u0020infinite\u0020time,\u0020for\u0020permanent\u0020keys\u0029.",
+            "url": "classes/MatthiasMullie-Scrapbook-Psr6-InfinityDateTime.html"
+        },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\InvalidArgumentException",
             "name": "InvalidArgumentException",
             "summary": "",
@@ -1058,7 +1143,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Item\u003A\u003Aexists\u0028\u0029",
             "name": "exists",
-            "summary": "Confirms\u0020if\u0020the\u0020cache\u0020item\u0020exists\u0020in\u0020the\u0020cache.",
+            "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/MatthiasMullie-Scrapbook-Psr6-Item.html#method_exists"
         },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Item\u003A\u003AexpiresAt\u0028\u0029",
@@ -1073,7 +1158,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Item\u003A\u003AgetExpiration\u0028\u0029",
             "name": "getExpiration",
-            "summary": "Returns\u0020the\u0020expiration\u0020time\u0020of\u0020a\u0020not\u002Dyet\u002Dexpired\u0020cache\u0020item.",
+            "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/MatthiasMullie-Scrapbook-Psr6-Item.html#method_getExpiration"
         },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Pool",
@@ -1126,6 +1211,101 @@ Search.appendIndex(
             "summary": "List\u0020of\u0020invalid\u0020\u0028or\u0020reserved\u0029\u0020key\u0020characters.",
             "url": "classes/MatthiasMullie-Scrapbook-Psr6-Pool.html#constant_KEY_INVALID_CHARACTERS"
         },                {
+            "fqsen": "\\Psr\\Cache\\CacheException",
+            "name": "CacheException",
+            "summary": "Exception\u0020interface\u0020for\u0020all\u0020exceptions\u0020thrown\u0020by\u0020an\u0020Implementing\u0020Library.",
+            "url": "classes/Psr-Cache-CacheException.html"
+        },                {
+            "fqsen": "\\Psr\\Cache\\CacheItemInterface",
+            "name": "CacheItemInterface",
+            "summary": "CacheItemInterface\u0020defines\u0020an\u0020interface\u0020for\u0020interacting\u0020with\u0020objects\u0020inside\u0020a\u0020cache.",
+            "url": "classes/Psr-Cache-CacheItemInterface.html"
+        },                {
+            "fqsen": "\\Psr\\Cache\\CacheItemInterface\u003A\u003AgetKey\u0028\u0029",
+            "name": "getKey",
+            "summary": "Returns\u0020the\u0020key\u0020for\u0020the\u0020current\u0020cache\u0020item.",
+            "url": "classes/Psr-Cache-CacheItemInterface.html#method_getKey"
+        },                {
+            "fqsen": "\\Psr\\Cache\\CacheItemInterface\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "Retrieves\u0020the\u0020value\u0020of\u0020the\u0020item\u0020from\u0020the\u0020cache\u0020associated\u0020with\u0020this\u0020object\u0027s\u0020key.",
+            "url": "classes/Psr-Cache-CacheItemInterface.html#method_get"
+        },                {
+            "fqsen": "\\Psr\\Cache\\CacheItemInterface\u003A\u003Aset\u0028\u0029",
+            "name": "set",
+            "summary": "Sets\u0020the\u0020value\u0020represented\u0020by\u0020this\u0020cache\u0020item.",
+            "url": "classes/Psr-Cache-CacheItemInterface.html#method_set"
+        },                {
+            "fqsen": "\\Psr\\Cache\\CacheItemInterface\u003A\u003AisHit\u0028\u0029",
+            "name": "isHit",
+            "summary": "Confirms\u0020if\u0020the\u0020cache\u0020item\u0020lookup\u0020resulted\u0020in\u0020a\u0020cache\u0020hit.",
+            "url": "classes/Psr-Cache-CacheItemInterface.html#method_isHit"
+        },                {
+            "fqsen": "\\Psr\\Cache\\CacheItemInterface\u003A\u003Aexists\u0028\u0029",
+            "name": "exists",
+            "summary": "Confirms\u0020if\u0020the\u0020cache\u0020item\u0020exists\u0020in\u0020the\u0020cache.",
+            "url": "classes/Psr-Cache-CacheItemInterface.html#method_exists"
+        },                {
+            "fqsen": "\\Psr\\Cache\\CacheItemInterface\u003A\u003AexpiresAt\u0028\u0029",
+            "name": "expiresAt",
+            "summary": "Sets\u0020the\u0020expiration\u0020time\u0020for\u0020this\u0020cache\u0020item.",
+            "url": "classes/Psr-Cache-CacheItemInterface.html#method_expiresAt"
+        },                {
+            "fqsen": "\\Psr\\Cache\\CacheItemInterface\u003A\u003AexpiresAfter\u0028\u0029",
+            "name": "expiresAfter",
+            "summary": "Sets\u0020the\u0020expiration\u0020time\u0020for\u0020this\u0020cache\u0020item.",
+            "url": "classes/Psr-Cache-CacheItemInterface.html#method_expiresAfter"
+        },                {
+            "fqsen": "\\Psr\\Cache\\CacheItemInterface\u003A\u003AgetExpiration\u0028\u0029",
+            "name": "getExpiration",
+            "summary": "Returns\u0020the\u0020expiration\u0020time\u0020of\u0020a\u0020not\u002Dyet\u002Dexpired\u0020cache\u0020item.",
+            "url": "classes/Psr-Cache-CacheItemInterface.html#method_getExpiration"
+        },                {
+            "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface",
+            "name": "CacheItemPoolInterface",
+            "summary": "CacheItemPoolInterface\u0020generates\u0020CacheItemInterface\u0020objects.",
+            "url": "classes/Psr-Cache-CacheItemPoolInterface.html"
+        },                {
+            "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface\u003A\u003AgetItem\u0028\u0029",
+            "name": "getItem",
+            "summary": "Returns\u0020a\u0020Cache\u0020Item\u0020representing\u0020the\u0020specified\u0020key.",
+            "url": "classes/Psr-Cache-CacheItemPoolInterface.html#method_getItem"
+        },                {
+            "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface\u003A\u003AgetItems\u0028\u0029",
+            "name": "getItems",
+            "summary": "Returns\u0020a\u0020traversable\u0020set\u0020of\u0020cache\u0020items.",
+            "url": "classes/Psr-Cache-CacheItemPoolInterface.html#method_getItems"
+        },                {
+            "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface\u003A\u003Aclear\u0028\u0029",
+            "name": "clear",
+            "summary": "Deletes\u0020all\u0020items\u0020in\u0020the\u0020pool.",
+            "url": "classes/Psr-Cache-CacheItemPoolInterface.html#method_clear"
+        },                {
+            "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface\u003A\u003AdeleteItems\u0028\u0029",
+            "name": "deleteItems",
+            "summary": "Removes\u0020multiple\u0020items\u0020from\u0020the\u0020pool.",
+            "url": "classes/Psr-Cache-CacheItemPoolInterface.html#method_deleteItems"
+        },                {
+            "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface\u003A\u003Asave\u0028\u0029",
+            "name": "save",
+            "summary": "Persists\u0020a\u0020cache\u0020item\u0020immediately.",
+            "url": "classes/Psr-Cache-CacheItemPoolInterface.html#method_save"
+        },                {
+            "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface\u003A\u003AsaveDeferred\u0028\u0029",
+            "name": "saveDeferred",
+            "summary": "Sets\u0020a\u0020cache\u0020item\u0020to\u0020be\u0020persisted\u0020later.",
+            "url": "classes/Psr-Cache-CacheItemPoolInterface.html#method_saveDeferred"
+        },                {
+            "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface\u003A\u003Acommit\u0028\u0029",
+            "name": "commit",
+            "summary": "Persists\u0020any\u0020deferred\u0020cache\u0020items.",
+            "url": "classes/Psr-Cache-CacheItemPoolInterface.html#method_commit"
+        },                {
+            "fqsen": "\\Psr\\Cache\\InvalidArgumentException",
+            "name": "InvalidArgumentException",
+            "summary": "Exception\u0020interface\u0020for\u0020invalid\u0020cache\u0020arguments.",
+            "url": "classes/Psr-Cache-InvalidArgumentException.html"
+        },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Repository",
             "name": "Repository",
             "summary": "Helper\u0020object\u0020to\u0020serve\u0020as\u0020glue\u0020between\u0020pool\u0020\u0026\u0020item.",
@@ -1156,195 +1336,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/MatthiasMullie-Scrapbook-Psr6-Repository.html#method_exists"
         },                {
-            "fqsen": "\\Psr\\Cache\\CacheException",
-            "name": "CacheException",
-            "summary": "Exception\u0020interface\u0020for\u0020all\u0020exceptions\u0020thrown\u0020by\u0020an\u0020Implementing\u0020Library.",
-            "url": "classes/Psr-Cache-CacheException.html"
-        },                {
-            "fqsen": "\\Psr\\Cache\\CacheItemInterface",
-            "name": "CacheItemInterface",
-            "summary": "CacheItemInterface\u0020defines\u0020an\u0020interface\u0020for\u0020interacting\u0020with\u0020objects\u0020inside\u0020a\u0020cache.",
-            "url": "classes/Psr-Cache-CacheItemInterface.html"
-        },                {
-            "fqsen": "\\Psr\\Cache\\CacheItemInterface\u003A\u003AgetKey\u0028\u0029",
-            "name": "getKey",
-            "summary": "Returns\u0020the\u0020key\u0020for\u0020the\u0020current\u0020cache\u0020item.",
-            "url": "classes/Psr-Cache-CacheItemInterface.html#method_getKey"
-        },                {
-            "fqsen": "\\Psr\\Cache\\CacheItemInterface\u003A\u003Aget\u0028\u0029",
-            "name": "get",
-            "summary": "Retrieves\u0020the\u0020value\u0020of\u0020the\u0020item\u0020from\u0020the\u0020cache\u0020associated\u0020with\u0020this\u0020object\u0027s\u0020key.",
-            "url": "classes/Psr-Cache-CacheItemInterface.html#method_get"
-        },                {
-            "fqsen": "\\Psr\\Cache\\CacheItemInterface\u003A\u003AisHit\u0028\u0029",
-            "name": "isHit",
-            "summary": "Confirms\u0020if\u0020the\u0020cache\u0020item\u0020lookup\u0020resulted\u0020in\u0020a\u0020cache\u0020hit.",
-            "url": "classes/Psr-Cache-CacheItemInterface.html#method_isHit"
-        },                {
-            "fqsen": "\\Psr\\Cache\\CacheItemInterface\u003A\u003Aset\u0028\u0029",
-            "name": "set",
-            "summary": "Sets\u0020the\u0020value\u0020represented\u0020by\u0020this\u0020cache\u0020item.",
-            "url": "classes/Psr-Cache-CacheItemInterface.html#method_set"
-        },                {
-            "fqsen": "\\Psr\\Cache\\CacheItemInterface\u003A\u003AexpiresAt\u0028\u0029",
-            "name": "expiresAt",
-            "summary": "Sets\u0020the\u0020expiration\u0020time\u0020for\u0020this\u0020cache\u0020item.",
-            "url": "classes/Psr-Cache-CacheItemInterface.html#method_expiresAt"
-        },                {
-            "fqsen": "\\Psr\\Cache\\CacheItemInterface\u003A\u003AexpiresAfter\u0028\u0029",
-            "name": "expiresAfter",
-            "summary": "Sets\u0020the\u0020expiration\u0020time\u0020for\u0020this\u0020cache\u0020item.",
-            "url": "classes/Psr-Cache-CacheItemInterface.html#method_expiresAfter"
-        },                {
-            "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface",
-            "name": "CacheItemPoolInterface",
-            "summary": "\\Psr\\Cache\\CacheItemPoolInterface\u0020generates\u0020Cache\\CacheItem\u0020objects.",
-            "url": "classes/Psr-Cache-CacheItemPoolInterface.html"
-        },                {
-            "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface\u003A\u003AgetItem\u0028\u0029",
-            "name": "getItem",
-            "summary": "Returns\u0020a\u0020Cache\u0020Item\u0020representing\u0020the\u0020specified\u0020key.",
-            "url": "classes/Psr-Cache-CacheItemPoolInterface.html#method_getItem"
-        },                {
-            "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface\u003A\u003AgetItems\u0028\u0029",
-            "name": "getItems",
-            "summary": "Returns\u0020a\u0020traversable\u0020set\u0020of\u0020cache\u0020items.",
-            "url": "classes/Psr-Cache-CacheItemPoolInterface.html#method_getItems"
-        },                {
             "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface\u003A\u003AhasItem\u0028\u0029",
             "name": "hasItem",
             "summary": "Confirms\u0020if\u0020the\u0020cache\u0020contains\u0020specified\u0020cache\u0020item.",
             "url": "classes/Psr-Cache-CacheItemPoolInterface.html#method_hasItem"
         },                {
-            "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface\u003A\u003Aclear\u0028\u0029",
-            "name": "clear",
-            "summary": "Deletes\u0020all\u0020items\u0020in\u0020the\u0020pool.",
-            "url": "classes/Psr-Cache-CacheItemPoolInterface.html#method_clear"
-        },                {
             "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface\u003A\u003AdeleteItem\u0028\u0029",
             "name": "deleteItem",
             "summary": "Removes\u0020the\u0020item\u0020from\u0020the\u0020pool.",
             "url": "classes/Psr-Cache-CacheItemPoolInterface.html#method_deleteItem"
-        },                {
-            "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface\u003A\u003AdeleteItems\u0028\u0029",
-            "name": "deleteItems",
-            "summary": "Removes\u0020multiple\u0020items\u0020from\u0020the\u0020pool.",
-            "url": "classes/Psr-Cache-CacheItemPoolInterface.html#method_deleteItems"
-        },                {
-            "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface\u003A\u003Asave\u0028\u0029",
-            "name": "save",
-            "summary": "Persists\u0020a\u0020cache\u0020item\u0020immediately.",
-            "url": "classes/Psr-Cache-CacheItemPoolInterface.html#method_save"
-        },                {
-            "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface\u003A\u003AsaveDeferred\u0028\u0029",
-            "name": "saveDeferred",
-            "summary": "Sets\u0020a\u0020cache\u0020item\u0020to\u0020be\u0020persisted\u0020later.",
-            "url": "classes/Psr-Cache-CacheItemPoolInterface.html#method_saveDeferred"
-        },                {
-            "fqsen": "\\Psr\\Cache\\CacheItemPoolInterface\u003A\u003Acommit\u0028\u0029",
-            "name": "commit",
-            "summary": "Persists\u0020any\u0020deferred\u0020cache\u0020items.",
-            "url": "classes/Psr-Cache-CacheItemPoolInterface.html#method_commit"
-        },                {
-            "fqsen": "\\Psr\\Cache\\InvalidArgumentException",
-            "name": "InvalidArgumentException",
-            "summary": "Exception\u0020interface\u0020for\u0020invalid\u0020cache\u0020arguments.",
-            "url": "classes/Psr-Cache-InvalidArgumentException.html"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Exception\\ServerUnhealthy",
-            "name": "ServerUnhealthy",
-            "summary": "",
-            "url": "classes/MatthiasMullie-Scrapbook-Exception-ServerUnhealthy.html"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem",
-            "name": "Filesystem",
-            "summary": "Filesystem\u0020adapter.\u0020Data\u0020will\u0020be\u0020written\u0020to\u0020filesystem,\u0020in\u0020separate\u0020files.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method___construct"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aget\u0028\u0029",
-            "name": "get",
-            "summary": "Retrieves\u0020an\u0020item\u0020from\u0020the\u0020cache.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_get"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003AgetMulti\u0028\u0029",
-            "name": "getMulti",
-            "summary": "Retrieves\u0020multiple\u0020items\u0020at\u0020once.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_getMulti"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aset\u0028\u0029",
-            "name": "set",
-            "summary": "Stores\u0020a\u0020value,\u0020regardless\u0020of\u0020whether\u0020or\u0020not\u0020the\u0020key\u0020already\u0020exists\u0020\u0028in\nwhich\u0020case\u0020it\u0020will\u0020overwrite\u0020the\u0020existing\u0020value\u0020for\u0020that\u0020key\u0029.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_set"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003AsetMulti\u0028\u0029",
-            "name": "setMulti",
-            "summary": "Store\u0020multiple\u0020values\u0020at\u0020once.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_setMulti"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Adelete\u0028\u0029",
-            "name": "delete",
-            "summary": "Deletes\u0020an\u0020item\u0020from\u0020the\u0020cache.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_delete"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003AdeleteMulti\u0028\u0029",
-            "name": "deleteMulti",
-            "summary": "Deletes\u0020multiple\u0020items\u0020at\u0020once\u0020\u0028reduced\u0020network\u0020traffic\u0020compared\u0020to\nindividual\u0020operations\u0029.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_deleteMulti"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aadd\u0028\u0029",
-            "name": "add",
-            "summary": "Adds\u0020an\u0020item\u0020under\u0020new\u0020key.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_add"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Areplace\u0028\u0029",
-            "name": "replace",
-            "summary": "Replaces\u0020an\u0020item.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_replace"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Acas\u0028\u0029",
-            "name": "cas",
-            "summary": "Replaces\u0020an\u0020item\u0020in\u00201\u0020atomic\u0020operation,\u0020to\u0020ensure\u0020it\u0020didn\u0027t\u0020change\u0020since\nit\u0020was\u0020originally\u0020read,\u0020when\u0020the\u0020CAS\u0020token\u0020was\u0020issued.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_cas"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aincrement\u0028\u0029",
-            "name": "increment",
-            "summary": "Increments\u0020a\u0020counter\u0020value,\u0020or\u0020sets\u0020an\u0020initial\u0020value\u0020if\u0020it\u0020does\u0020not\u0020yet\nexist.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_increment"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Adecrement\u0028\u0029",
-            "name": "decrement",
-            "summary": "Decrements\u0020a\u0020counter\u0020value,\u0020or\u0020sets\u0020an\u0020initial\u0020value\u0020if\u0020it\u0020does\u0020not\u0020yet\nexist.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_decrement"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Atouch\u0028\u0029",
-            "name": "touch",
-            "summary": "Updates\u0020an\u0020item\u0027s\u0020expiration\u0020time\u0020without\u0020altering\u0020the\u0020stored\u0020value.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_touch"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aflush\u0028\u0029",
-            "name": "flush",
-            "summary": "Clears\u0020the\u0020entire\u0020cache.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_flush"
-        },                {
-            "fqsen": "\\Psr\\Cache\\CacheItemInterface\u003A\u003Aexists\u0028\u0029",
-            "name": "exists",
-            "summary": "Confirms\u0020if\u0020the\u0020cache\u0020item\u0020exists\u0020in\u0020the\u0020cache.",
-            "url": "classes/Psr-Cache-CacheItemInterface.html#method_exists"
-        },                {
-            "fqsen": "\\Psr\\Cache\\CacheItemInterface\u003A\u003AgetExpiration\u0028\u0029",
-            "name": "getExpiration",
-            "summary": "Returns\u0020the\u0020expiration\u0020time\u0020of\u0020a\u0020not\u002Dyet\u002Dexpired\u0020cache\u0020item.",
-            "url": "classes/Psr-Cache-CacheItemInterface.html#method_getExpiration"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\InfinityDateTime",
-            "name": "InfinityDateTime",
-            "summary": "Stub\u0020class\u0020to\u0020represent\u0020infinity,\u0020while\u0020still\u0020keeping\u0020with\u0020the\u0020PSR\u002D6\nrequirement\u0020of\u0020representing\u0020TTL\u0020with\u0020DateTime\u0020objects\u0020\u0028with\u0020which\u0020it\u0027s\u0020not\npossible\u0020to\u0020represent\u0020an\u0020infinite\u0020time,\u0020for\u0020permanent\u0020keys\u0029.",
-            "url": "classes/MatthiasMullie-Scrapbook-Psr6-InfinityDateTime.html"
         },                {
             "fqsen": "\\",
             "name": "\\",

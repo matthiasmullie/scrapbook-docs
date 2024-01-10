@@ -941,6 +941,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/MatthiasMullie-Scrapbook-Exception-InvalidKey.html"
         },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Exception\\ServerUnhealthy",
+            "name": "ServerUnhealthy",
+            "summary": "",
+            "url": "classes/MatthiasMullie-Scrapbook-Exception-ServerUnhealthy.html"
+        },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Exception\\UnbegunTransaction",
             "name": "UnbegunTransaction",
             "summary": "",
@@ -1020,6 +1025,81 @@ Search.appendIndex(
             "name": "flush",
             "summary": "Clears\u0020the\u0020entire\u0020cache.",
             "url": "classes/MatthiasMullie-Scrapbook-KeyValueStore.html#method_flush"
+        },                {
+            "fqsen": "\\Psr\\SimpleCache\\CacheInterface",
+            "name": "CacheInterface",
+            "summary": "",
+            "url": "classes/Psr-SimpleCache-CacheInterface.html"
+        },                {
+            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "Fetch\u0020a\u0020value\u0020from\u0020the\u0020cache.",
+            "url": "classes/Psr-SimpleCache-CacheInterface.html#method_get"
+        },                {
+            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003Aset\u0028\u0029",
+            "name": "set",
+            "summary": "Persist\u0020data\u0020in\u0020the\u0020cache,\u0020uniquely\u0020referenced\u0020by\u0020a\u0020key\u0020with\u0020an\u0020optional\u0020expiration\u0020TTL\u0020time.",
+            "url": "classes/Psr-SimpleCache-CacheInterface.html#method_set"
+        },                {
+            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "Delete\u0020an\u0020item\u0020from\u0020the\u0020cache\u0020by\u0020its\u0020unique\u0020key",
+            "url": "classes/Psr-SimpleCache-CacheInterface.html#method_delete"
+        },                {
+            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003Aclear\u0028\u0029",
+            "name": "clear",
+            "summary": "Wipe\u0020clean\u0020the\u0020entire\u0020cache\u0027s\u0020keys",
+            "url": "classes/Psr-SimpleCache-CacheInterface.html#method_clear"
+        },                {
+            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003AgetMultiple\u0028\u0029",
+            "name": "getMultiple",
+            "summary": "Obtain\u0020multiple\u0020cache\u0020items\u0020by\u0020their\u0020unique\u0020keys",
+            "url": "classes/Psr-SimpleCache-CacheInterface.html#method_getMultiple"
+        },                {
+            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003AsetMultiple\u0028\u0029",
+            "name": "setMultiple",
+            "summary": "Persisting\u0020a\u0020set\u0020of\u0020key\u0020\u003D\u003E\u0020value\u0020pairs\u0020in\u0020the\u0020cache,\u0020with\u0020an\u0020optional\u0020TTL.",
+            "url": "classes/Psr-SimpleCache-CacheInterface.html#method_setMultiple"
+        },                {
+            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003AdeleteMultiple\u0028\u0029",
+            "name": "deleteMultiple",
+            "summary": "Delete\u0020multiple\u0020cache\u0020items\u0020in\u0020a\u0020single\u0020operation",
+            "url": "classes/Psr-SimpleCache-CacheInterface.html#method_deleteMultiple"
+        },                {
+            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003Aexists\u0028\u0029",
+            "name": "exists",
+            "summary": "Identify\u0020if\u0020an\u0020item\u0020is\u0020in\u0020the\u0020cache.",
+            "url": "classes/Psr-SimpleCache-CacheInterface.html#method_exists"
+        },                {
+            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003ATTL_MINUTE",
+            "name": "TTL_MINUTE",
+            "summary": "",
+            "url": "classes/Psr-SimpleCache-CacheInterface.html#constant_TTL_MINUTE"
+        },                {
+            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003ATTL_HOUR",
+            "name": "TTL_HOUR",
+            "summary": "",
+            "url": "classes/Psr-SimpleCache-CacheInterface.html#constant_TTL_HOUR"
+        },                {
+            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003ATTL_DAY",
+            "name": "TTL_DAY",
+            "summary": "",
+            "url": "classes/Psr-SimpleCache-CacheInterface.html#constant_TTL_DAY"
+        },                {
+            "fqsen": "\\Psr\\SimpleCache\\CounterInterface",
+            "name": "CounterInterface",
+            "summary": "",
+            "url": "classes/Psr-SimpleCache-CounterInterface.html"
+        },                {
+            "fqsen": "\\Psr\\SimpleCache\\CounterInterface\u003A\u003Aincrement\u0028\u0029",
+            "name": "increment",
+            "summary": "Increment\u0020a\u0020value\u0020atomically\u0020in\u0020the\u0020cache\u0020by\u0020its\u0020step\u0020value,\u0020which\u0020defaults\u0020to\u00201",
+            "url": "classes/Psr-SimpleCache-CounterInterface.html#method_increment"
+        },                {
+            "fqsen": "\\Psr\\SimpleCache\\CounterInterface\u003A\u003Adecrement\u0028\u0029",
+            "name": "decrement",
+            "summary": "Decrement\u0020a\u0020value\u0020atomically\u0020in\u0020the\u0020cache\u0020by\u0020its\u0020step\u0020value,\u0020which\u0020defaults\u0020to\u00201",
+            "url": "classes/Psr-SimpleCache-CounterInterface.html#method_decrement"
         },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr16\\SimpleCache",
             "name": "SimpleCache",
@@ -1495,86 +1575,6 @@ Search.appendIndex(
             "name": "InvalidArgumentException",
             "summary": "Exception\u0020interface\u0020for\u0020invalid\u0020cache\u0020arguments.",
             "url": "classes/Psr-Cache-InvalidArgumentException.html"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Exception\\ServerUnhealthy",
-            "name": "ServerUnhealthy",
-            "summary": "",
-            "url": "classes/MatthiasMullie-Scrapbook-Exception-ServerUnhealthy.html"
-        },                {
-            "fqsen": "\\Psr\\SimpleCache\\CacheInterface",
-            "name": "CacheInterface",
-            "summary": "",
-            "url": "classes/Psr-SimpleCache-CacheInterface.html"
-        },                {
-            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003Aget\u0028\u0029",
-            "name": "get",
-            "summary": "Fetch\u0020a\u0020value\u0020from\u0020the\u0020cache.",
-            "url": "classes/Psr-SimpleCache-CacheInterface.html#method_get"
-        },                {
-            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003Aset\u0028\u0029",
-            "name": "set",
-            "summary": "Persist\u0020data\u0020in\u0020the\u0020cache,\u0020uniquely\u0020referenced\u0020by\u0020a\u0020key\u0020with\u0020an\u0020optional\u0020expiration\u0020TTL\u0020time.",
-            "url": "classes/Psr-SimpleCache-CacheInterface.html#method_set"
-        },                {
-            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003Adelete\u0028\u0029",
-            "name": "delete",
-            "summary": "Delete\u0020an\u0020item\u0020from\u0020the\u0020cache\u0020by\u0020its\u0020unique\u0020key",
-            "url": "classes/Psr-SimpleCache-CacheInterface.html#method_delete"
-        },                {
-            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003Aclear\u0028\u0029",
-            "name": "clear",
-            "summary": "Wipe\u0020clean\u0020the\u0020entire\u0020cache\u0027s\u0020keys",
-            "url": "classes/Psr-SimpleCache-CacheInterface.html#method_clear"
-        },                {
-            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003AgetMultiple\u0028\u0029",
-            "name": "getMultiple",
-            "summary": "Obtain\u0020multiple\u0020cache\u0020items\u0020by\u0020their\u0020unique\u0020keys",
-            "url": "classes/Psr-SimpleCache-CacheInterface.html#method_getMultiple"
-        },                {
-            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003AsetMultiple\u0028\u0029",
-            "name": "setMultiple",
-            "summary": "Persisting\u0020a\u0020set\u0020of\u0020key\u0020\u003D\u003E\u0020value\u0020pairs\u0020in\u0020the\u0020cache,\u0020with\u0020an\u0020optional\u0020TTL.",
-            "url": "classes/Psr-SimpleCache-CacheInterface.html#method_setMultiple"
-        },                {
-            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003AdeleteMultiple\u0028\u0029",
-            "name": "deleteMultiple",
-            "summary": "Delete\u0020multiple\u0020cache\u0020items\u0020in\u0020a\u0020single\u0020operation",
-            "url": "classes/Psr-SimpleCache-CacheInterface.html#method_deleteMultiple"
-        },                {
-            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003Aexists\u0028\u0029",
-            "name": "exists",
-            "summary": "Identify\u0020if\u0020an\u0020item\u0020is\u0020in\u0020the\u0020cache.",
-            "url": "classes/Psr-SimpleCache-CacheInterface.html#method_exists"
-        },                {
-            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003ATTL_MINUTE",
-            "name": "TTL_MINUTE",
-            "summary": "",
-            "url": "classes/Psr-SimpleCache-CacheInterface.html#constant_TTL_MINUTE"
-        },                {
-            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003ATTL_HOUR",
-            "name": "TTL_HOUR",
-            "summary": "",
-            "url": "classes/Psr-SimpleCache-CacheInterface.html#constant_TTL_HOUR"
-        },                {
-            "fqsen": "\\Psr\\SimpleCache\\CacheInterface\u003A\u003ATTL_DAY",
-            "name": "TTL_DAY",
-            "summary": "",
-            "url": "classes/Psr-SimpleCache-CacheInterface.html#constant_TTL_DAY"
-        },                {
-            "fqsen": "\\Psr\\SimpleCache\\CounterInterface",
-            "name": "CounterInterface",
-            "summary": "",
-            "url": "classes/Psr-SimpleCache-CounterInterface.html"
-        },                {
-            "fqsen": "\\Psr\\SimpleCache\\CounterInterface\u003A\u003Aincrement\u0028\u0029",
-            "name": "increment",
-            "summary": "Increment\u0020a\u0020value\u0020atomically\u0020in\u0020the\u0020cache\u0020by\u0020its\u0020step\u0020value,\u0020which\u0020defaults\u0020to\u00201",
-            "url": "classes/Psr-SimpleCache-CounterInterface.html#method_increment"
-        },                {
-            "fqsen": "\\Psr\\SimpleCache\\CounterInterface\u003A\u003Adecrement\u0028\u0029",
-            "name": "decrement",
-            "summary": "Decrement\u0020a\u0020value\u0020atomically\u0020in\u0020the\u0020cache\u0020by\u0020its\u0020step\u0020value,\u0020which\u0020defaults\u0020to\u00201",
-            "url": "classes/Psr-SimpleCache-CounterInterface.html#method_decrement"
         },                {
             "fqsen": "\\",
             "name": "\\",

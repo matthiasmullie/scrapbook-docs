@@ -146,6 +146,81 @@ Search.appendIndex(
             "summary": "Clears\u0020the\u0020entire\u0020cache.",
             "url": "classes/MatthiasMullie-Scrapbook-Adapters-Couchbase.html#method_flush"
         },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem",
+            "name": "Filesystem",
+            "summary": "Filesystem\u0020adapter.\u0020Data\u0020will\u0020be\u0020written\u0020to\u0020filesystem,\u0020in\u0020separate\u0020files.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method___construct"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "Retrieves\u0020an\u0020item\u0020from\u0020the\u0020cache.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_get"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003AgetMulti\u0028\u0029",
+            "name": "getMulti",
+            "summary": "Retrieves\u0020multiple\u0020items\u0020at\u0020once.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_getMulti"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aset\u0028\u0029",
+            "name": "set",
+            "summary": "Stores\u0020a\u0020value,\u0020regardless\u0020of\u0020whether\u0020or\u0020not\u0020the\u0020key\u0020already\u0020exists\u0020\u0028in\nwhich\u0020case\u0020it\u0020will\u0020overwrite\u0020the\u0020existing\u0020value\u0020for\u0020that\u0020key\u0029.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_set"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003AsetMulti\u0028\u0029",
+            "name": "setMulti",
+            "summary": "Store\u0020multiple\u0020values\u0020at\u0020once.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_setMulti"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "Deletes\u0020an\u0020item\u0020from\u0020the\u0020cache.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_delete"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003AdeleteMulti\u0028\u0029",
+            "name": "deleteMulti",
+            "summary": "Deletes\u0020multiple\u0020items\u0020at\u0020once\u0020\u0028reduced\u0020network\u0020traffic\u0020compared\u0020to\nindividual\u0020operations\u0029.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_deleteMulti"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aadd\u0028\u0029",
+            "name": "add",
+            "summary": "Adds\u0020an\u0020item\u0020under\u0020new\u0020key.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_add"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Areplace\u0028\u0029",
+            "name": "replace",
+            "summary": "Replaces\u0020an\u0020item.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_replace"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Acas\u0028\u0029",
+            "name": "cas",
+            "summary": "Replaces\u0020an\u0020item\u0020in\u00201\u0020atomic\u0020operation,\u0020to\u0020ensure\u0020it\u0020didn\u0027t\u0020change\u0020since\nit\u0020was\u0020originally\u0020read,\u0020when\u0020the\u0020CAS\u0020token\u0020was\u0020issued.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_cas"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aincrement\u0028\u0029",
+            "name": "increment",
+            "summary": "Increments\u0020a\u0020counter\u0020value,\u0020or\u0020sets\u0020an\u0020initial\u0020value\u0020if\u0020it\u0020does\u0020not\u0020yet\nexist.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_increment"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Adecrement\u0028\u0029",
+            "name": "decrement",
+            "summary": "Decrements\u0020a\u0020counter\u0020value,\u0020or\u0020sets\u0020an\u0020initial\u0020value\u0020if\u0020it\u0020does\u0020not\u0020yet\nexist.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_decrement"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Atouch\u0028\u0029",
+            "name": "touch",
+            "summary": "Updates\u0020an\u0020item\u0027s\u0020expiration\u0020time\u0020without\u0020altering\u0020the\u0020stored\u0020value.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_touch"
+        },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aflush\u0028\u0029",
+            "name": "flush",
+            "summary": "Clears\u0020the\u0020entire\u0020cache.",
+            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_flush"
+        },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Flysystem",
             "name": "Flysystem",
             "summary": "Flysystem\u0020adapter.\u0020Data\u0020will\u0020be\u0020written\u0020to\u0020League\\Flysystem\\Filesystem.",
@@ -936,6 +1011,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/MatthiasMullie-Scrapbook-Exception-Exception.html"
         },                {
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Exception\\ServerUnhealthy",
+            "name": "ServerUnhealthy",
+            "summary": "",
+            "url": "classes/MatthiasMullie-Scrapbook-Exception-ServerUnhealthy.html"
+        },                {
             "fqsen": "\\MatthiasMullie\\Scrapbook\\Exception\\UnbegunTransaction",
             "name": "UnbegunTransaction",
             "summary": "",
@@ -1131,36 +1211,6 @@ Search.appendIndex(
             "summary": "List\u0020of\u0020invalid\u0020\u0028or\u0020reserved\u0029\u0020key\u0020characters.",
             "url": "classes/MatthiasMullie-Scrapbook-Psr6-Pool.html#constant_KEY_INVALID_CHARACTERS"
         },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Repository",
-            "name": "Repository",
-            "summary": "Helper\u0020object\u0020to\u0020serve\u0020as\u0020glue\u0020between\u0020pool\u0020\u0026\u0020item.",
-            "url": "classes/MatthiasMullie-Scrapbook-Psr6-Repository.html"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Repository\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/MatthiasMullie-Scrapbook-Psr6-Repository.html#method___construct"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Repository\u003A\u003Aadd\u0028\u0029",
-            "name": "add",
-            "summary": "Add\u0020a\u0020to\u002Dbe\u002Dresolved\u0020cache\u0020key.",
-            "url": "classes/MatthiasMullie-Scrapbook-Psr6-Repository.html#method_add"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Repository\u003A\u003Aremove\u0028\u0029",
-            "name": "remove",
-            "summary": "This\u0020repository\u0020holds\u0020the\u0020real\u0020values\u0020for\u0020all\u0020Item\u0020objects.\u0020However,\u0020if\nsuch\u0020an\u0020item\u0020gets\u0020garbage\u0020collected,\u0020there\u0020is\u0020no\u0020point\u0020in\u0020wasting\u0020any\nmore\u0020memory\u0020storing\u0020that\u0020value.",
-            "url": "classes/MatthiasMullie-Scrapbook-Psr6-Repository.html#method_remove"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Repository\u003A\u003Aget\u0028\u0029",
-            "name": "get",
-            "summary": "",
-            "url": "classes/MatthiasMullie-Scrapbook-Psr6-Repository.html#method_get"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Repository\u003A\u003Aexists\u0028\u0029",
-            "name": "exists",
-            "summary": "",
-            "url": "classes/MatthiasMullie-Scrapbook-Psr6-Repository.html#method_exists"
-        },                {
             "fqsen": "\\Psr\\Cache\\CacheException",
             "name": "CacheException",
             "summary": "Exception\u0020interface\u0020for\u0020all\u0020exceptions\u0020thrown\u0020by\u0020an\u0020Implementing\u0020Library.",
@@ -1256,85 +1306,35 @@ Search.appendIndex(
             "summary": "Exception\u0020interface\u0020for\u0020invalid\u0020cache\u0020arguments.",
             "url": "classes/Psr-Cache-InvalidArgumentException.html"
         },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Exception\\ServerUnhealthy",
-            "name": "ServerUnhealthy",
-            "summary": "",
-            "url": "classes/MatthiasMullie-Scrapbook-Exception-ServerUnhealthy.html"
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Repository",
+            "name": "Repository",
+            "summary": "Helper\u0020object\u0020to\u0020serve\u0020as\u0020glue\u0020between\u0020pool\u0020\u0026\u0020item.",
+            "url": "classes/MatthiasMullie-Scrapbook-Psr6-Repository.html"
         },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem",
-            "name": "Filesystem",
-            "summary": "Filesystem\u0020adapter.\u0020Data\u0020will\u0020be\u0020written\u0020to\u0020filesystem,\u0020in\u0020separate\u0020files.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Repository\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method___construct"
+            "url": "classes/MatthiasMullie-Scrapbook-Psr6-Repository.html#method___construct"
         },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aget\u0028\u0029",
-            "name": "get",
-            "summary": "Retrieves\u0020an\u0020item\u0020from\u0020the\u0020cache.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_get"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003AgetMulti\u0028\u0029",
-            "name": "getMulti",
-            "summary": "Retrieves\u0020multiple\u0020items\u0020at\u0020once.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_getMulti"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aset\u0028\u0029",
-            "name": "set",
-            "summary": "Stores\u0020a\u0020value,\u0020regardless\u0020of\u0020whether\u0020or\u0020not\u0020the\u0020key\u0020already\u0020exists\u0020\u0028in\nwhich\u0020case\u0020it\u0020will\u0020overwrite\u0020the\u0020existing\u0020value\u0020for\u0020that\u0020key\u0029.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_set"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003AsetMulti\u0028\u0029",
-            "name": "setMulti",
-            "summary": "Store\u0020multiple\u0020values\u0020at\u0020once.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_setMulti"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Adelete\u0028\u0029",
-            "name": "delete",
-            "summary": "Deletes\u0020an\u0020item\u0020from\u0020the\u0020cache.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_delete"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003AdeleteMulti\u0028\u0029",
-            "name": "deleteMulti",
-            "summary": "Deletes\u0020multiple\u0020items\u0020at\u0020once\u0020\u0028reduced\u0020network\u0020traffic\u0020compared\u0020to\nindividual\u0020operations\u0029.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_deleteMulti"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aadd\u0028\u0029",
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Repository\u003A\u003Aadd\u0028\u0029",
             "name": "add",
-            "summary": "Adds\u0020an\u0020item\u0020under\u0020new\u0020key.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_add"
+            "summary": "Add\u0020a\u0020to\u002Dbe\u002Dresolved\u0020cache\u0020key.",
+            "url": "classes/MatthiasMullie-Scrapbook-Psr6-Repository.html#method_add"
         },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Areplace\u0028\u0029",
-            "name": "replace",
-            "summary": "Replaces\u0020an\u0020item.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_replace"
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Repository\u003A\u003Aremove\u0028\u0029",
+            "name": "remove",
+            "summary": "This\u0020repository\u0020holds\u0020the\u0020real\u0020values\u0020for\u0020all\u0020Item\u0020objects.\u0020However,\u0020if\nsuch\u0020an\u0020item\u0020gets\u0020garbage\u0020collected,\u0020there\u0020is\u0020no\u0020point\u0020in\u0020wasting\u0020any\nmore\u0020memory\u0020storing\u0020that\u0020value.",
+            "url": "classes/MatthiasMullie-Scrapbook-Psr6-Repository.html#method_remove"
         },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Acas\u0028\u0029",
-            "name": "cas",
-            "summary": "Replaces\u0020an\u0020item\u0020in\u00201\u0020atomic\u0020operation,\u0020to\u0020ensure\u0020it\u0020didn\u0027t\u0020change\u0020since\nit\u0020was\u0020originally\u0020read,\u0020when\u0020the\u0020CAS\u0020token\u0020was\u0020issued.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_cas"
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Repository\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "",
+            "url": "classes/MatthiasMullie-Scrapbook-Psr6-Repository.html#method_get"
         },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aincrement\u0028\u0029",
-            "name": "increment",
-            "summary": "Increments\u0020a\u0020counter\u0020value,\u0020or\u0020sets\u0020an\u0020initial\u0020value\u0020if\u0020it\u0020does\u0020not\u0020yet\nexist.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_increment"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Adecrement\u0028\u0029",
-            "name": "decrement",
-            "summary": "Decrements\u0020a\u0020counter\u0020value,\u0020or\u0020sets\u0020an\u0020initial\u0020value\u0020if\u0020it\u0020does\u0020not\u0020yet\nexist.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_decrement"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Atouch\u0028\u0029",
-            "name": "touch",
-            "summary": "Updates\u0020an\u0020item\u0027s\u0020expiration\u0020time\u0020without\u0020altering\u0020the\u0020stored\u0020value.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_touch"
-        },                {
-            "fqsen": "\\MatthiasMullie\\Scrapbook\\Adapters\\Filesystem\u003A\u003Aflush\u0028\u0029",
-            "name": "flush",
-            "summary": "Clears\u0020the\u0020entire\u0020cache.",
-            "url": "classes/MatthiasMullie-Scrapbook-Adapters-Filesystem.html#method_flush"
+            "fqsen": "\\MatthiasMullie\\Scrapbook\\Psr6\\Repository\u003A\u003Aexists\u0028\u0029",
+            "name": "exists",
+            "summary": "",
+            "url": "classes/MatthiasMullie-Scrapbook-Psr6-Repository.html#method_exists"
         },                {
             "fqsen": "\\",
             "name": "\\",

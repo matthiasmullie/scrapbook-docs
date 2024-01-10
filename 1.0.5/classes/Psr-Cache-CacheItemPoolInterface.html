@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
                 <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
         <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
         <script src="js/search.js"></script>
         <script defer src="js/searchIndex.js"></script>
     </head>
@@ -52,7 +53,7 @@
 <label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
     Menu
 </label>
-<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
                     <section class="phpdocumentor-sidebar__category">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
@@ -97,8 +98,9 @@
     </section>
 </aside>
 
-            <div class="phpdocumentor-column -eight phpdocumentor-content">
-                    <ul class="phpdocumentor-breadcrumbs">
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/psr.html">Psr</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/psr-cache.html">Cache</a></li>
     </ul>
@@ -115,17 +117,20 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Psr6/Psr/CacheItemPoolInterface.php"><a href="files/src-psr6-psr-cacheitempoolinterface.html"><abbr title="src/Psr6/Psr/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/psr/cache/src/CacheItemPoolInterface.php"><a href="files/vendor-psr-cache-src-cacheitempoolinterface.html"><abbr title="vendor/psr/cache/src/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">8</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
             <p class="phpdocumentor-summary">CacheItemPoolInterface generates CacheItemInterface objects.</p>
 
-
-
-
+    <section class="phpdocumentor-description"><p>The primary purpose of Cache\CacheItemPoolInterface is to accept a key from
+the Calling Library and return the associated Cache\CacheItemInterface object.
+It is also the primary point of interaction with the entire cache collection.
+All configuration and initialization of the Pool is left up to an
+Implementing Library.</p>
+</section>
 
 
 
@@ -133,11 +138,26 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/Psr-Cache-CacheItemPoolInterface.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
 </h3>
 
+
+
+
+
+
+
+
+
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/Psr-Cache-CacheItemPoolInterface.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
 <dl class="phpdocumentor-table-of-contents">
-                        <dt class="phpdocumentor-table-of-contents__entry -method -public">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_clear">clear()</a>
     <span>
                                 &nbsp;: bool    </span>
@@ -200,7 +220,8 @@
 </dt>
 <dd>Sets a cache item to be persisted later.</dd>
 
-        </dl>
+    </dl>
+
 
 
 
@@ -210,6 +231,7 @@
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
             <a href="classes/Psr-Cache-CacheItemPoolInterface.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="phpdocumentor-element
@@ -220,11 +242,12 @@
     <h4 class="phpdocumentor-element__name" id="method_clear">
         clear()
         <a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_clear" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Psr6/Psr/CacheItemPoolInterface.php"><a href="files/src-psr6-psr-cacheitempoolinterface.html"><abbr title="src/Psr6/Psr/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/psr/cache/src/CacheItemPoolInterface.php"><a href="files/vendor-psr-cache-src-cacheitempoolinterface.html"><abbr title="vendor/psr/cache/src/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">71</span>
+    <span class="phpdocumentor-element-found-in__line">77</span>
 
     </aside>
 
@@ -234,17 +257,21 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">clear</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>True if the pool was successfully cleared. False if there was an error.</p>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>True if the pool was successfully cleared. False if there was an error.</p>
 </section>
 
-    
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -255,11 +282,12 @@
     <h4 class="phpdocumentor-element__name" id="method_commit">
         commit()
         <a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_commit" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Psr6/Psr/CacheItemPoolInterface.php"><a href="files/src-psr6-psr-cacheitempoolinterface.html"><abbr title="src/Psr6/Psr/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/psr/cache/src/CacheItemPoolInterface.php"><a href="files/vendor-psr-cache-src-cacheitempoolinterface.html"><abbr title="vendor/psr/cache/src/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">131</span>
+    <span class="phpdocumentor-element-found-in__line">137</span>
 
     </aside>
 
@@ -269,17 +297,21 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">commit</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
     
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>True if all not-yet-saved items were successfully saved or there were none. False otherwise.</p>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>True if all not-yet-saved items were successfully saved or there were none. False otherwise.</p>
 </section>
 
-    
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -290,11 +322,12 @@
     <h4 class="phpdocumentor-element__name" id="method_deleteItem">
         deleteItem()
         <a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_deleteItem" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Psr6/Psr/CacheItemPoolInterface.php"><a href="files/src-psr6-psr-cacheitempoolinterface.html"><abbr title="src/Psr6/Psr/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/psr/cache/src/CacheItemPoolInterface.php"><a href="files/vendor-psr-cache-src-cacheitempoolinterface.html"><abbr title="vendor/psr/cache/src/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">86</span>
+    <span class="phpdocumentor-element-found-in__line">92</span>
 
     </aside>
 
@@ -304,6 +337,8 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">deleteItem</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -312,7 +347,7 @@
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>The key for which to delete</p>
+                    <section class="phpdocumentor-description"><p>The key to delete.</p>
 </section>
 
             </dd>
@@ -321,7 +356,8 @@
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_deleteItem#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -335,15 +371,17 @@ MUST be thrown.</p>
 </section>
 
                                     </dd>
-                        </dl>
+                                            </dl>
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>True if the item was successfully removed. False if there was an error.</p>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>True if the item was successfully removed. False if there was an error.</p>
 </section>
 
-    
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -354,11 +392,12 @@ MUST be thrown.</p>
     <h4 class="phpdocumentor-element__name" id="method_deleteItems">
         deleteItems()
         <a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_deleteItems" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Psr6/Psr/CacheItemPoolInterface.php"><a href="files/src-psr6-psr-cacheitempoolinterface.html"><abbr title="src/Psr6/Psr/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/psr/cache/src/CacheItemPoolInterface.php"><a href="files/vendor-psr-cache-src-cacheitempoolinterface.html"><abbr title="vendor/psr/cache/src/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">101</span>
+    <span class="phpdocumentor-element-found-in__line">107</span>
 
     </aside>
 
@@ -366,14 +405,16 @@ MUST be thrown.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">deleteItems</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$keys</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">deleteItems</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, string&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$keys</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$keys</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, string&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>An array of keys that should be removed from the pool.</p>
@@ -385,7 +426,8 @@ MUST be thrown.</p>
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_deleteItems#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -399,15 +441,17 @@ MUST be thrown.</p>
 </section>
 
                                     </dd>
-                        </dl>
+                                            </dl>
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>True if the items were successfully removed. False if there was an error.</p>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>True if the items were successfully removed. False if there was an error.</p>
 </section>
 
-    
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -418,11 +462,12 @@ MUST be thrown.</p>
     <h4 class="phpdocumentor-element__name" id="method_getItem">
         getItem()
         <a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_getItem" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Psr6/Psr/CacheItemPoolInterface.php"><a href="files/src-psr6-psr-cacheitempoolinterface.html"><abbr title="src/Psr6/Psr/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/psr/cache/src/CacheItemPoolInterface.php"><a href="files/vendor-psr-cache-src-cacheitempoolinterface.html"><abbr title="vendor/psr/cache/src/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
@@ -432,6 +477,8 @@ MUST be thrown.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">getItem</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Psr-Cache-CacheItemInterface.html"><abbr title="\Psr\Cache\CacheItemInterface">CacheItemInterface</abbr></a></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
         <section class="phpdocumentor-description"><p>This method must always return a CacheItemInterface object, even in case of
 a cache miss. It MUST NOT return null.</p>
 </section>
@@ -452,7 +499,8 @@ a cache miss. It MUST NOT return null.</p>
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_getItem#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -466,15 +514,17 @@ MUST be thrown.</p>
 </section>
 
                                     </dd>
-                        </dl>
+                                            </dl>
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/Psr-Cache-CacheItemInterface.html"><abbr title="\Psr\Cache\CacheItemInterface">CacheItemInterface</abbr></a></span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>The corresponding Cache Item.</p>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Psr-Cache-CacheItemInterface.html"><abbr title="\Psr\Cache\CacheItemInterface">CacheItemInterface</abbr></a></span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>The corresponding Cache Item.</p>
 </section>
 
-    
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -485,11 +535,12 @@ MUST be thrown.</p>
     <h4 class="phpdocumentor-element__name" id="method_getItems">
         getItems()
         <a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_getItems" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Psr6/Psr/CacheItemPoolInterface.php"><a href="files/src-psr6-psr-cacheitempoolinterface.html"><abbr title="src/Psr6/Psr/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/psr/cache/src/CacheItemPoolInterface.php"><a href="files/vendor-psr-cache-src-cacheitempoolinterface.html"><abbr title="vendor/psr/cache/src/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 
     </aside>
 
@@ -497,14 +548,16 @@ MUST be thrown.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getItems</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$keys</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|<abbr title="\Traversable">Traversable</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">getItems</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, string&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$keys</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|<abbr title="\Traversable">Traversable</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$keys</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, string&gt;</span>
                  = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>An indexed array of keys of items to retrieve.</p>
@@ -516,7 +569,8 @@ MUST be thrown.</p>
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_getItems#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -530,18 +584,20 @@ MUST be thrown.</p>
 </section>
 
                                     </dd>
-                        </dl>
+                                            </dl>
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|<abbr title="\Traversable">Traversable</abbr></span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>A traversable collection of Cache Items keyed by the cache keys of
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|<abbr title="\Traversable">Traversable</abbr></span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>A traversable collection of Cache Items keyed by the cache keys of
 each item. A Cache item will be returned for each key, even if that
 key is not found. However, if no keys are specified then an empty
 traversable MUST be returned instead.</p>
 </section>
 
-    
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -552,11 +608,12 @@ traversable MUST be returned instead.</p>
     <h4 class="phpdocumentor-element__name" id="method_hasItem">
         hasItem()
         <a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_hasItem" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Psr6/Psr/CacheItemPoolInterface.php"><a href="files/src-psr6-psr-cacheitempoolinterface.html"><abbr title="src/Psr6/Psr/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/psr/cache/src/CacheItemPoolInterface.php"><a href="files/vendor-psr-cache-src-cacheitempoolinterface.html"><abbr title="vendor/psr/cache/src/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">63</span>
+    <span class="phpdocumentor-element-found-in__line">69</span>
 
     </aside>
 
@@ -566,6 +623,8 @@ traversable MUST be returned instead.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">hasItem</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
         <section class="phpdocumentor-description"><p>Note: This method MAY avoid retrieving the cached value for performance reasons.
 This could result in a race condition with CacheItemInterface::get(). To avoid
 such situation use CacheItemInterface::isHit() instead.</p>
@@ -587,7 +646,8 @@ such situation use CacheItemInterface::isHit() instead.</p>
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_hasItem#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -601,15 +661,17 @@ MUST be thrown.</p>
 </section>
 
                                     </dd>
-                        </dl>
+                                            </dl>
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>True if item exists in the cache, false otherwise.</p>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>True if item exists in the cache, false otherwise.</p>
 </section>
 
-    
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -620,11 +682,12 @@ MUST be thrown.</p>
     <h4 class="phpdocumentor-element__name" id="method_save">
         save()
         <a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_save" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Psr6/Psr/CacheItemPoolInterface.php"><a href="files/src-psr6-psr-cacheitempoolinterface.html"><abbr title="src/Psr6/Psr/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/psr/cache/src/CacheItemPoolInterface.php"><a href="files/vendor-psr-cache-src-cacheitempoolinterface.html"><abbr title="vendor/psr/cache/src/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">112</span>
+    <span class="phpdocumentor-element-found-in__line">118</span>
 
     </aside>
 
@@ -634,6 +697,8 @@ MUST be thrown.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">save</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Psr-Cache-CacheItemInterface.html"><abbr title="\Psr\Cache\CacheItemInterface">CacheItemInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$item</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -650,13 +715,15 @@ MUST be thrown.</p>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>True if the item was successfully persisted. False if there was an error.</p>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>True if the item was successfully persisted. False if there was an error.</p>
 </section>
 
-    
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -667,11 +734,12 @@ MUST be thrown.</p>
     <h4 class="phpdocumentor-element__name" id="method_saveDeferred">
         saveDeferred()
         <a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_saveDeferred" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Psr6/Psr/CacheItemPoolInterface.php"><a href="files/src-psr6-psr-cacheitempoolinterface.html"><abbr title="src/Psr6/Psr/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/psr/cache/src/CacheItemPoolInterface.php"><a href="files/vendor-psr-cache-src-cacheitempoolinterface.html"><abbr title="vendor/psr/cache/src/CacheItemPoolInterface.php">CacheItemPoolInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">123</span>
+    <span class="phpdocumentor-element-found-in__line">129</span>
 
     </aside>
 
@@ -681,6 +749,8 @@ MUST be thrown.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">saveDeferred</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Psr-Cache-CacheItemInterface.html"><abbr title="\Psr\Cache\CacheItemInterface">CacheItemInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$item</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -697,80 +767,146 @@ MUST be thrown.</p>
 
     
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>False if the item could not be queued or if a commit was attempted and failed. True otherwise.</p>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>False if the item could not be queued or if a commit was attempted and failed. True otherwise.</p>
 </section>
 
-    
+            </section>
+
 </article>
             </section>
 
-        
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/vendor/psr/cache/src/CacheItemPoolInterface.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
     <script type="text/javascript">
-        function loadExternalCodeSnippets(line) {
-            Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
-                var src = pre.getAttribute('data-src').replace( /\\/g, '/');
-                var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
-                var language = 'php';
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
 
-                var code = document.createElement('code');
-                code.className = 'language-' + language;
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
 
-                pre.textContent = '';
+                    var xhr = new XMLHttpRequest();
 
-                pre.setAttribute('data-line', line)
-                code.textContent = 'Loading…';
+                    xhr.open('GET', src, true);
 
-                pre.appendChild(code);
-
-                var xhr = new XMLHttpRequest();
-
-                xhr.open('GET', src, true);
-
-                xhr.onreadystatechange = function () {
-                    if (xhr.readyState == 4) {
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
 
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
-
                             Prism.highlightElement(code);
+                            return;
                         }
-                        else if (xhr.status >= 400) {
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
                             code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
                         }
-                        else {
-                            code.textContent = '✖ Error: File does not exist, is empty or trying to view from localhost';
-                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
                     }
-                };
+                    modal.classList.add("phpdocumentor-modal__open");
 
-                xhr.send(null);
-            });
-        }
-
-        var modals = document.querySelectorAll("[data-modal]");
-
-        modals.forEach(function (trigger) {
-            trigger.addEventListener("click", function (event) {
-                //event.preventDefault();
-                const modal = document.getElementById(trigger.dataset.modal);
-                modal.classList.add("phpdocumentor-modal__open");
-                loadExternalCodeSnippets(trigger.dataset.line)
-                const exits = modal.querySelectorAll("[data-exit-button]");
-                exits.forEach(function (exit) {
-                    exit.addEventListener("click", function (event) {
-                        event.preventDefault();
-                        modal.classList.remove("phpdocumentor-modal__open");
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
                     });
                 });
             });
-        });
+        })();
     </script>
 
     </article>
-                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                            
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                    <li><a href="classes/Psr-Cache-CacheItemPoolInterface.html#toc-constants">Constants</a></li>
+                    <li><a href="classes/Psr-Cache-CacheItemPoolInterface.html#toc-methods">Methods</a></li>
+                </ul>
+            </li>
+                            <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li><a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_clear">clear()</a></li>
+                                                    <li><a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_commit">commit()</a></li>
+                                                    <li><a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_deleteItem">deleteItem()</a></li>
+                                                    <li><a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_deleteItems">deleteItems()</a></li>
+                                                    <li><a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_getItem">getItem()</a></li>
+                                                    <li><a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_getItems">getItems()</a></li>
+                                                    <li><a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_hasItem">hasItem()</a></li>
+                                                    <li><a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_save">save()</a></li>
+                                                    <li><a href="classes/Psr-Cache-CacheItemPoolInterface.html#method_saveDeferred">saveDeferred()</a></li>
+                                            </ul>
+                </li>
+            
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
     <section class="phpdocumentor-search-results__dialog">
         <header class="phpdocumentor-search-results__header">
             <h2 class="phpdocumentor-search-results__title">Search results</h2>
@@ -781,7 +917,6 @@ MUST be thrown.</p>
         </section>
     </section>
 </section>
-            </div>
         </div>
         <a href="classes/Psr-Cache-CacheItemPoolInterface.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
