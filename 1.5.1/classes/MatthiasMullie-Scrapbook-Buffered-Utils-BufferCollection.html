@@ -54,7 +54,7 @@
     Menu
 </label>
 <aside class="phpdocumentor-column -three phpdocumentor-sidebar">
-                    <section class="phpdocumentor-sidebar__category">
+                    <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="namespaces/matthiasmullie.html" class="">MatthiasMullie</a>
@@ -81,7 +81,7 @@
             </ul>
 
                         </section>
-                <section class="phpdocumentor-sidebar__category">
+                <section class="phpdocumentor-sidebar__category -packages">
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="packages/Scrapbook.html" class="">Scrapbook</a>
@@ -89,14 +89,14 @@
 
                         </section>
             
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -reports">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
     </section>
 
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -indices">
         <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
     </section>
@@ -182,6 +182,8 @@
 
 
 
+
+
 <h3 id="toc">
     Table of Contents
     <a href="classes/MatthiasMullie-Scrapbook-Buffered-Utils-BufferCollection.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
@@ -255,7 +257,7 @@ individual operations).</dd>
 <dd>Check if a key existed in local storage, but is now expired.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MatthiasMullie-Scrapbook-Adapters-Collections-Utils-PrefixKeys.html#method_flush">flush()</a>
+    <a href="classes/MatthiasMullie-Scrapbook-Adapters-Collections-MemoryStore.html#method_flush">flush()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
@@ -324,7 +326,6 @@ which case it will overwrite the existing value for that key).</dd>
 
 
 
-
         
 
         
@@ -378,6 +379,8 @@ which case it will overwrite the existing value for that key).</dd>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -442,6 +445,8 @@ over 2592000 = absolute time, unix timestamp</p>
 
             </dd>
             </dl>
+
+    
 
     
 
@@ -521,6 +526,8 @@ over 2592000 = absolute time, unix timestamp</p>
 
             </dd>
             </dl>
+
+    
 
     
 
@@ -605,6 +612,8 @@ over 2592000 = absolute time, unix timestamp</p>
 
     
 
+    
+
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">int|false</span>
@@ -659,6 +668,8 @@ failure.</p>
 
     
 
+    
+
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">bool</span>
@@ -706,6 +717,8 @@ status is a boolean true for success, or false for failure.</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -762,6 +775,8 @@ So we'll want to know when a value is in local cache, but expired!</p>
 
     
 
+    
+
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">bool</span>
@@ -776,13 +791,13 @@ So we'll want to know when a value is in local cache, but expired!</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_flush">
         flush()
-        <a href="classes/MatthiasMullie-Scrapbook-Adapters-Collections-Utils-PrefixKeys.html#method_flush" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/MatthiasMullie-Scrapbook-Adapters-Collections-MemoryStore.html#method_flush" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Adapters/Collections/Utils/PrefixKeys.php"><a href="files/src-adapters-collections-utils-prefixkeys.html"><abbr title="src/Adapters/Collections/Utils/PrefixKeys.php">PrefixKeys.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Adapters/Collections/MemoryStore.php"><a href="files/src-adapters-collections-memorystore.html"><abbr title="src/Adapters/Collections/MemoryStore.php">MemoryStore.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">118</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
@@ -799,6 +814,8 @@ failure.</p>
 </section>
 
     
+    
+
     
 
             <section>
@@ -856,6 +873,8 @@ filled with a value that can be used for cas()</p>
 
             </dd>
             </dl>
+
+    
 
     
 
@@ -919,6 +938,8 @@ any of the collections on that server.</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -988,6 +1009,8 @@ get them all in 1 request.</p>
 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1076,6 +1099,8 @@ over 2592000 = absolute time, unix timestamp</p>
 
     
 
+    
+
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">int|false</span>
@@ -1148,6 +1173,8 @@ over 2592000 = absolute time, unix timestamp</p>
 
     
 
+    
+
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">bool</span>
@@ -1217,6 +1244,8 @@ over 2592000 = absolute time, unix timestamp</p>
 
     
 
+    
+
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">bool</span>
@@ -1282,6 +1311,8 @@ over 2592000 = absolute time, unix timestamp</p>
 
     
 
+    
+
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">array&lt;string|int, bool&gt;</span>
@@ -1340,6 +1371,8 @@ over 2592000 = absolute time, unix timestamp</p>
 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1469,7 +1502,7 @@ over 2592000 = absolute time, unix timestamp</p>
                                             <li><a href="classes/MatthiasMullie-Scrapbook-Adapters-Collections-Utils-PrefixKeys.html#method_delete">delete()</a></li>
                                             <li><a href="classes/MatthiasMullie-Scrapbook-Adapters-Collections-Utils-PrefixKeys.html#method_deleteMulti">deleteMulti()</a></li>
                                             <li><a href="classes/MatthiasMullie-Scrapbook-Buffered-Utils-BufferCollection.html#method_expired">expired()</a></li>
-                                            <li><a href="classes/MatthiasMullie-Scrapbook-Adapters-Collections-Utils-PrefixKeys.html#method_flush">flush()</a></li>
+                                            <li><a href="classes/MatthiasMullie-Scrapbook-Adapters-Collections-MemoryStore.html#method_flush">flush()</a></li>
                                             <li><a href="classes/MatthiasMullie-Scrapbook-Adapters-Collections-Utils-PrefixKeys.html#method_get">get()</a></li>
                                             <li><a href="classes/MatthiasMullie-Scrapbook-Adapters-Collections-Utils-PrefixKeys.html#method_getCollection">getCollection()</a></li>
                                             <li><a href="classes/MatthiasMullie-Scrapbook-Adapters-Collections-Utils-PrefixKeys.html#method_getMulti">getMulti()</a></li>
